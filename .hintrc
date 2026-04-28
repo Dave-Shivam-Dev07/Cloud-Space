@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off",
+    "no-inline-styles": "off",
+    "meta-viewport": "off",
+    "axe/forms": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter"
+        ]
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "typescript-config/is-valid": "off",
+    "typescript-config/strict": "off",
+    "typescript-config/consistent-casing": "off",
+    "disown-opener": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 18.6",
+    "not safari <= 18.6",
+    "not chrome <= 112",
+    "not samsung <= 28"
+  ]
+}
