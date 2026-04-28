@@ -1,0 +1,106 @@
+/* Mobile view overrides - clear, focused module for small screens */
+/* Target: devices up to 720px wide */
+
+/* Automatic responsive rules (apply when viewport is small) */
+@media (max-width: 720px) {
+    /* Ensure body centers content but allows scrolling on small screens */
+    body {
+        padding: 20px 12px;
+        align-items: flex-start;
+    }
+
+    main {
+        width: 100%;
+        max-width: 520px;
+        padding: 22px;
+        border-radius: 18px;
+        margin: 24px auto;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+
+    .auth-form {
+        gap: 14px;
+    }
+
+    .auth-form input {
+        padding: 10px 12px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    .avatar-preview {
+        width: 88px;
+        height: 88px;
+    }
+
+    /* Stack captcha vertically for narrow screens */
+    .captcha-box {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    canvas {
+        width: 100%;
+        height: 44px;
+        max-width: 220px;
+    }
+
+    .verify-btn {
+        width: 100%;
+        padding: 14px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Make the alert slightly narrower on very small screens */
+    .alert {
+        width: min(96vw, 420px);
+    }
+
+    /* Slight layout tweaks for very small devices */
+    @media (max-width: 360px) {
+        h1 { font-size: 20px; }
+        main { padding: 16px; }
+        .avatar-preview { width: 72px; height: 72px; }
+    }
+}
+
+/* Force mobile rules when `.mobile-view` class is present on body */
+body.mobile-view {
+    padding: 20px 12px;
+    align-items: flex-start;
+}
+body.mobile-view main {
+    width: 100%;
+    max-width: 520px;
+    padding: 22px;
+    border-radius: 18px;
+    margin: 24px auto;
+}
+body.mobile-view h1 {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+body.mobile-view .auth-form { gap: 14px; }
+body.mobile-view .auth-form input { padding: 10px 12px; font-size: 15px; border-radius: 10px; }
+body.mobile-view .avatar-preview { width: 88px; height: 88px; }
+body.mobile-view .captcha-box { flex-direction: column; gap: 10px; align-items: stretch; }
+body.mobile-view canvas { width: 100%; height: 44px; max-width: 220px; }
+body.mobile-view .verify-btn { width: 100%; padding: 14px; border-radius: 12px; font-size: 16px; }
+body.mobile-view p { font-size: 14px; }
+body.mobile-view .alert { width: min(96vw, 420px); }
+
+@media (max-width: 360px) {
+    body.mobile-view h1 { font-size: 20px; }
+    body.mobile-view main { padding: 16px; }
+    body.mobile-view .avatar-preview { width: 72px; height: 72px; }
+}
