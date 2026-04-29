@@ -1,5 +1,9 @@
 import ngrok from "@ngrok/ngrok";
 import express from "express";
+import fs from "fs";
+console.log("ROOT FILES:", fs.readdirSync("."));
+console.log("UTILS EXISTS:", fs.existsSync("./utils"));
+console.log("COINS FILE EXISTS:", fs.existsSync("./utils/coins-ledger.js"));
 import path from "path";
 import { registerAdminFriendsMonitoring } from "./server-admin-friends.js";
 import registerAdminRoutes from "./server-admin.js";
@@ -19,10 +23,6 @@ import registerFriendRoutes, {
   registerCloudCoinRoutes,
   registerFriendShareRoutes,
 } from "./server-friends.js";
-import fs from "fs";
-console.log("ROOT FILES:", fs.readdirSync("."));
-console.log("UTILS EXISTS:", fs.existsSync("./utils"));
-console.log("COINS FILE EXISTS:", fs.existsSync("./utils/coins-ledger.js"));
 import registerPlanRoutes from "./server-plans.js";
 import registerUploadRoutes from "./server-uploads.js";
 import feedbackRoutes from "./server2.js";
