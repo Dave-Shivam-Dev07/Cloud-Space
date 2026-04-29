@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import jwt from "jsonwebtoken";
-import { getUsersList } from "./utils/pay-kundli-manager.js";
+import { getUsersList } from "./src/utils/pay-kundli-manager.js";
 import dotenv from "dotenv";
 
 // Load environment variables FIRST

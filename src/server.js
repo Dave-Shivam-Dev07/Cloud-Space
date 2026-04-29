@@ -1,9 +1,9 @@
 import ngrok from "@ngrok/ngrok";
 import express from "express";
 import path from "path";
-import { registerAdminFriendsMonitoring } from "./server-admin-friends.js";
-import registerAdminRoutes from "./server-admin.js";
-import registerAuthRoutes from "./server-auth.js";
+import { registerAdminFriendsMonitoring } from "../server-admin-friends.js";
+import registerAdminRoutes from "../server-admin.js";
+import registerAuthRoutes from "../server-auth.js";
 import {
   aggregateAllUsersData,
   app,
@@ -13,15 +13,15 @@ import {
   mail,
   paths,
   startAggregationWatcher,
-} from "./server-core.js";
+} from "../server-core.js";
 import registerFriendRoutes, {
   registerChatRoutes,
   registerCloudCoinRoutes,
   registerFriendShareRoutes,
 } from "./server-friends.js";
-import registerPlanRoutes from "./server-plans.js";
-import registerUploadRoutes from "./server-uploads.js";
-import feedbackRoutes from "./server2.js";
+import registerPlanRoutes from "../server-plans.js";
+import registerUploadRoutes from "../server-uploads.js";
+import feedbackRoutes from "../server2.js";
 import {
   logDataConsolidationStart,
   logNetworkConnected,

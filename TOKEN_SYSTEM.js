@@ -2,12 +2,12 @@
 import jwt from "jsonwebtoken";
 import path from "path";
 import { fileURLToPath } from "url";
-import { logTokenGenerated } from "./utils/cool-logger.js";
+import { logTokenGenerated } from "./src/utils/cool-logger.js";
 import {
   getTokensList,
   updateTokensFromList,
-} from "./utils/pay-kundli-manager.js";
-import { logVerificationAttempt } from "./utils/verification-store.js";
+} from "./src/utils/pay-kundli-manager.js";
+import { logVerificationAttempt } from "./src/utils/verification-store.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

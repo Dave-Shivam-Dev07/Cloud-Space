@@ -10,7 +10,7 @@ import { validateToken } from "./TOKEN_SYSTEM.js";
 import {
   ensureCoinsLedgerFile,
   syncCoinsLedgerFromWallets,
-} from "./utils/coins-ledger.js";
+} from "./src/utils/coins-ledger.js";
 import {
   getPlanActiveList,
   getProofsList,
@@ -18,11 +18,11 @@ import {
   getTokensList,
   getUsersList,
   readKundli,
-} from "./utils/pay-kundli-manager.js";
+} from "./src/utils/pay-kundli-manager.js";
 import {
   initVerificationStore,
   logVerificationAttempt,
-} from "./utils/verification-store.js";
+} from "./src/utils/verification-store.js";
 
 // Load environment variables
 dotenv.config();

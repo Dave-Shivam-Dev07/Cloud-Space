@@ -3,9 +3,9 @@ import fs from "fs";
 import multer from "multer";
 import path from "path";
 import { v4 as uuidv4 } from "uuid";
-import { syncCoinsLedgerFromWallets } from "./utils/coins-ledger.js";
-import { logLoginPlanCheck, logLoginResponse } from "./utils/cool-logger.js";
-import * as Kundli from "./utils/pay-kundli-manager.js";
+import { syncCoinsLedgerFromWallets } from "./src/utils/coins-ledger.js";
+import { logLoginPlanCheck, logLoginResponse } from "./src/utils/cool-logger.js";
+import * as Kundli from "./src/utils/pay-kundli-manager.js";
 
 // Attach authentication and user-profile routes
 export function registerAuthRoutes(core) {

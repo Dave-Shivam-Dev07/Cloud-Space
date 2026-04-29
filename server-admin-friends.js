@@ -6,9 +6,9 @@ import {
   loadJSON,
   requestsFile,
   sharesFile,
-} from "./server-friends.js";
-import { syncCoinsLedgerFromWallets } from "./utils/coins-ledger.js";
-import { getUsersList } from "./utils/pay-kundli-manager.js";
+} from "./src/server-friends.js";
+import { syncCoinsLedgerFromWallets } from "./src/utils/coins-ledger.js";
+import { getUsersList } from "./src/utils/pay-kundli-manager.js";
 
 export function registerAdminFriendsMonitoring(core) {
   const { app, helpers } = core;

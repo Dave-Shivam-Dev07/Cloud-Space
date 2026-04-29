@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { createPlatinumToken, getTokenByUID } from "./TOKEN_SYSTEM.js";
-import { syncCoinsLedgerFromWallets } from "./utils/coins-ledger.js";
+import { syncCoinsLedgerFromWallets } from "./src/utils/coins-ledger.js";
 import {
   getPlanActiveList,
   getProofsList,
@@ -15,12 +15,12 @@ import {
   updateTokensFromList,
   updateUsersFromList,
   writeKundli,
-} from "./utils/pay-kundli-manager.js";
+} from "./src/utils/pay-kundli-manager.js";
 import {
   clearVerificationStore,
   getRecentVerifications,
   getVerificationStats,
-} from "./utils/verification-store.js";
+} from "./src/utils/verification-store.js";
 
 // Attach admin, support, and JSON-editor routes
 export function registerAdminRoutes(core) {

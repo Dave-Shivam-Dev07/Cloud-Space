@@ -10,12 +10,12 @@ import {
   getTokenByUID,
   validateToken,
 } from "./TOKEN_SYSTEM.js";
-import { syncCoinsLedgerFromWallets } from "./utils/coins-ledger.js";
+import { syncCoinsLedgerFromWallets } from "./src/utils/coins-ledger.js";
 import {
   logPaymentMethodsLoaded,
   logPlanConfigurationLoaded,
   logUiAccessDecision,
-} from "./utils/cool-logger.js";
+} from "./src/utils/cool-logger.js";
 import {
   getPlanActiveList,
   getProofsList,
@@ -27,7 +27,7 @@ import {
   updatePurchasesFromList,
   updateTokensFromList,
   updateUsersFromList,
-} from "./utils/pay-kundli-manager.js";
+} from "./src/utils/pay-kundli-manager.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
