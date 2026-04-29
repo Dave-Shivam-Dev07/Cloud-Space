@@ -1,0 +1,24 @@
+{
+  "socials": [
+    {
+      "name": "Instagram",
+      "icon": "📸",
+      "url": "https://instagram.com/YOUR_USERNAME"
+    },
+    {
+      "name": "Twitter",
+      "icon": "🐦",
+      "url": "https://twitter.com/YOUR_USERNAME"
+    },
+    {
+      "name": "GitHub",
+      "icon": "💻",
+      "url": "https://github.com/YOUR_USERNAME"
+    },
+    {
+      "name": "Email",
+      "icon": "📧",
+      "url": "mailto:support@cloudspace.com"
+    }
+  ]
+}

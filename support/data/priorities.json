@@ -1,0 +1,8 @@
+{
+  "priorities": [
+    "Low",
+    "Normal",
+    "High",
+    "Urgent"
+  ]
+}

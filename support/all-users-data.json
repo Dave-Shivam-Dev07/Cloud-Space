@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-04-29T18:08:41.921Z",
+  "totalUsers": 2,
+  "planPricing": {
+    "pricePerTB": 450,
+    "upiId": "ENTER_YOUR_UPI_ID",
+    "paymentMethods": {
+      "qr": {
+        "enabled": true,
+        "name": "UPI QR"
+      },
+      "upiId": {
+        "enabled": true,
+        "name": "UPI ID"
+      },
+      "card": {
+        "enabled": true,
+        "name": "Card"
+      },
+      "netbanking": {
+        "enabled": true,
+        "name": "NetBanking"
+      }
+    },
+    "plans": {
+      "silver": {
+        "key": "silver",
+        "name": "Silver",
+        "amount": 2250,
+        "storageTB": 5,
+        "durationDays": 30,
+        "note": "Monthly (30 days)"
+      },
+      "gold": {
+        "key": "gold",
+        "name": "Gold",
+        "amount": 9000,
+        "storageTB": 20,
+        "durationDays": 90,
+        "note": "Quarterly (90 days)"
+      },
+      "platinum": {
+        "key": "platinum",
+        "name": "Platinum",
+        "amount": 45000,
+        "storageTB": 100,
+        "durationDays": 180,
+        "note": "Half-yearly (180 days)"
+      },
+      "ultra": {
+        "key": "ultra",
+        "name": "Ultra",
+        "amount": 90000,
+        "storageTB": 200,
+        "durationDays": 365,
+        "note": "Yearly (1 year)"
+      }
+    },
+    "lastUpdated": "2026-04-29T18:08:41.606Z"
+  },
+  "users": [
+    {
+      "user": {
+        "uid": "SUPER-001",
+        "username": "Owner of CloudSpace",
+        "email": "Create your Super Admin Mail (like Owner@cloudspace.com)",
+        "phone": "NULL",
+        "password": "ENTER_SUPER_ADMIN_PASSWORD",
+        "role": "superadmin",
+        "uiAccess": null,
+        "profilePic": "/images/default-avatar.png",
+        "created_at": "2026-04-29T18:08:41.599Z",
+        "verified": true,
+        "blocked": false,
+        "referral": {
+          "successfulReferredUsers": [],
+          "awardedMilestones": 0
+        },
+        "purchases": [],
+        "proofs": [],
+        "paymentLogs": [],
+        "tokens": [],
+        "activePlans": [],
+        "permanentBan": false,
+        "blockUntil": null,
+        "blockedBy": null,
+        "forceLogoutToken": null,
+        "forceLogoutAt": null,
+        "planActive": null,
+        "storageQuotaTB": null
+      },
+      "kundliRaw": {
+        "uid": "SUPER-001",
+        "username": "Owner of CloudSpace",
+        "email": "Create your Super Admin Mail (like Owner@cloudspace.com)",
+        "phone": "NULL",
+        "password": "ENTER_SUPER_ADMIN_PASSWORD",
+        "role": "superadmin",
+        "uiAccess": null,
+        "profilePic": "/images/default-avatar.png",
+        "created_at": "2026-04-29T18:08:41.599Z",
+        "verified": true,
+        "blocked": false,
+        "referral": {
+          "successfulReferredUsers": [],
+          "awardedMilestones": 0
+        },
+        "purchases": [],
+        "proofs": [],
+        "paymentLogs": [],
+        "tokens": [],
+        "activePlans": []
+      },
+      "storage": {
+        "totalBytes": 0,
+        "totalFiles": 0,
+        "files": []
+      },
+      "plan": {
+        "currentPlan": "free",
+        "planHistory": [],
+        "summary": {},
+        "fullPlanData": null
+      },
+      "payments": {
+        "proofs": [],
+        "purchases": [],
+        "totalSpent": 0
+      },
+      "activity": {
+        "loginCount": 0,
+        "lastLogin": null,
+        "signupDate": null,
+        "totalLogins": 0,
+        "totalSignups": 0,
+        "loginHistory": [],
+        "signupHistory": []
+      },
+      "feedbacks": [],
+      "tokens": [],
+      "coins": {
+        "balance": 0,
+        "transactions": [],
+        "createdAt": null,
+        "fullCoinsData": null
+      },
+      "stats": {
+        "totalFiles": 0,
+        "totalStorage": 0,
+        "totalPayments": 0,
+        "totalLogins": 0,
+        "totalFeedbacks": 0,
+        "accountAge": 0
+      }
+    },
+    {
+      "user": {
+        "uid": "ADMIN-001",
+        "username": "Admin",
+        "email": "admin@cloudspace.com",
+        "phone": "NULL",
+        "password": "ENTER_ADMIN_PASSWORD",
+        "role": "admin",
+        "uiAccess": null,
+        "profilePic": "/images/default-avatar.png",
+        "created_at": "2026-04-29T18:08:41.600Z",
+        "verified": true,
+        "blocked": false,
+        "referral": {
+          "successfulReferredUsers": [],
+          "awardedMilestones": 0
+        },
+        "purchases": [],
+        "proofs": [],
+        "paymentLogs": [],
+        "tokens": [],
+        "activePlans": [],
+        "permanentBan": false,
+        "blockUntil": null,
+        "blockedBy": null,
+        "forceLogoutToken": null,
+        "forceLogoutAt": null,
+        "planActive": null,
+        "storageQuotaTB": null
+      },
+      "kundliRaw": {
+        "uid": "ADMIN-001",
+        "username": "Admin",
+        "email": "admin@cloudspace.com",
+        "phone": "NULL",
+        "password": "ENTER_ADMIN_PASSWORD",
+        "role": "admin",
+        "uiAccess": null,
+        "profilePic": "/images/default-avatar.png",
+        "created_at": "2026-04-29T18:08:41.600Z",
+        "verified": true,
+        "blocked": false,
+        "referral": {
+          "successfulReferredUsers": [],
+          "awardedMilestones": 0
+        },
+        "purchases": [],
+        "proofs": [],
+        "paymentLogs": [],
+        "tokens": [],
+        "activePlans": []
+      },
+      "storage": {
+        "totalBytes": 0,
+        "totalFiles": 0,
+        "files": []
+      },
+      "plan": {
+        "currentPlan": "free",
+        "planHistory": [],
+        "summary": {},
+        "fullPlanData": null
+      },
+      "payments": {
+        "proofs": [],
+        "purchases": [],
+        "totalSpent": 0
+      },
+      "activity": {
+        "loginCount": 0,
+        "lastLogin": null,
+        "signupDate": null,
+        "totalLogins": 0,
+        "totalSignups": 0,
+        "loginHistory": [],
+        "signupHistory": []
+      },
+      "feedbacks": [],
+      "tokens": [],
+      "coins": {
+        "balance": 0,
+        "transactions": [],
+        "createdAt": null,
+        "fullCoinsData": null
+      },
+      "stats": {
+        "totalFiles": 0,
+        "totalStorage": 0,
+        "totalPayments": 0,
+        "totalLogins": 0,
+        "totalFeedbacks": 0,
+        "accountAge": 0
+      }
+    }
+  ]
+}

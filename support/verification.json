@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-04-29T18:08:41.569Z",
+  "lastUpdated": "2026-04-29T18:08:41.569Z",
+  "stats": {
+    "totalAttempts": 0,
+    "successCount": 0,
+    "failureCount": 0,
+    "malformedCount": 0,
+    "expiredCount": 0
+  },
+  "recentVerifications": [],
+  "errorSummary": {}
+}

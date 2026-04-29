@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-04-29T18:08:41.604Z",
+  "lastUpdated": "2026-04-29T18:08:41.604Z",
+  "expiredPlans": [],
+  "archivedPayments": [],
+  "archivedUsers": [],
+  "metadata": {
+    "totalBackupedPlans": 0,
+    "totalBackupedPayments": 0,
+    "totalBackupedUsers": 0,
+    "totalBackupSize": 0
+  }
+}
