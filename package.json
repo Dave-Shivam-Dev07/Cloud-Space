@@ -1,10 +1,10 @@
 {
     "name": "cloudspace-plus",
     "version": "1.0.0",
-    "main": "server.js",
+    "main": "src/server.js",
     "type": "module",
     "scripts": {
-        "start": "node server.js"
+        "start": "node src/server.js"
     },
     "dependencies": {
         "@google-cloud/speech": "^7.2.1",
