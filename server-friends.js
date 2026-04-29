@@ -6,7 +6,7 @@ import { syncCoinsLedgerFromWallets } from "./utils/coins-ledger.js";
 import { logFriendRequestDebug } from "./utils/cool-logger.js";
 import { getUsersList } from "./utils/pay-kundli-manager.js";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = process.cwd();
 
 // Data files
 const supportDir = path.join(__dirname, "support");
